@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyBrushSharp", "LazyBrushSharp\LazyBrushSharp\LazyBrushSharp.csproj", "{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A} = {2B28EAA1-4C18-480D-AA9C-647C9E7E142A}
+	EndProjectSection
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "LazyBrushSharpContent", "LazyBrushSharp\LazyBrushSharpContent\LazyBrushSharpContent.contentproj", "{72419F8A-BB98-483B-A1D8-81BA60D93759}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GridCutLib", "GridCutLib\GridCutLib.vcxproj", "{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Debug|Win32.ActiveCfg = Debug|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Debug|x86.ActiveCfg = Debug|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Debug|x86.Build.0 = Debug|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Release|Win32.ActiveCfg = Release|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Release|x86.ActiveCfg = Release|x86
+		{A25DD615-2EDF-413D-8A3E-B2B138F7C2E4}.Release|x86.Build.0 = Release|x86
+		{72419F8A-BB98-483B-A1D8-81BA60D93759}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{72419F8A-BB98-483B-A1D8-81BA60D93759}.Debug|Win32.ActiveCfg = Debug|x86
+		{72419F8A-BB98-483B-A1D8-81BA60D93759}.Debug|x86.ActiveCfg = Debug|x86
+		{72419F8A-BB98-483B-A1D8-81BA60D93759}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{72419F8A-BB98-483B-A1D8-81BA60D93759}.Release|Win32.ActiveCfg = Release|x86
+		{72419F8A-BB98-483B-A1D8-81BA60D93759}.Release|x86.ActiveCfg = Release|x86
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Debug|Win32.Build.0 = Debug|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Debug|x86.ActiveCfg = Debug|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Release|Win32.ActiveCfg = Release|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Release|Win32.Build.0 = Release|Win32
+		{2B28EAA1-4C18-480D-AA9C-647C9E7E142A}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
